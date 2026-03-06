@@ -1,0 +1,123 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Box Model - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learn CSS Concepts Easily</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Box Model</h2>
+
+<p>
+The CSS Box Model is a fundamental concept used to design and layout web pages.
+Every HTML element is considered as a rectangular box.
+</p>
+
+<h3>Components of the Box Model</h3>
+
+<ul>
+<li><b>Content</b> – The actual content like text or images.</li>
+<li><b>Padding</b> – Space between content and border.</li>
+<li><b>Border</b> – Surrounds the padding and content.</li>
+<li><b>Margin</b> – Space outside the border.</li>
+</ul>
+
+<h3>Example</h3>
+
+<pre>
+div {
+width: 300px;
+padding: 20px;
+border: 5px solid black;
+margin: 30px;
+}
+</pre>
+
+<p>
+In this example, the width of the content is 300px,
+padding adds space inside the box, the border surrounds the box,
+and margin creates space outside the box.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

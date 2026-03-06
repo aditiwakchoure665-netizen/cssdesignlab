@@ -1,0 +1,136 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transitions - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+/* Example Transition Box */
+.box{
+width:150px;
+height:150px;
+background:blue;
+margin-top:20px;
+transition: background 1s, transform 1s;
+}
+
+.box:hover{
+background:red;
+transform: scale(1.2);
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Transitions</h2>
+
+<p>
+CSS transitions allow you to change property values smoothly over a given duration.
+They help create animations when a property changes from one value to another.
+</p>
+
+<h3>Basic Syntax</h3>
+
+<pre>
+selector {
+transition: property duration;
+}
+</pre>
+
+<h3>Example</h3>
+
+<pre>
+.box{
+background: blue;
+transition: background 1s;
+}
+
+.box:hover{
+background: red;
+}
+</pre>
+
+<p>Move your mouse over the box below to see the transition effect.</p>
+
+<div class="box"></div>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,143 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Animations - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+/* Animation Example */
+
+.box{
+width:100px;
+height:100px;
+background:red;
+position:relative;
+animation:movebox 5s infinite;
+}
+
+@keyframes movebox{
+0% {left:0px;}
+50% {left:200px;}
+100% {left:0px;}
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Animations</h2>
+
+<p>
+CSS animations allow elements on a web page to gradually change from one style to another.
+Animations can change properties like color, position, size, and many other visual effects.
+</p>
+
+<h3>Basic Animation Syntax</h3>
+
+<pre>
+@keyframes animation-name {
+from {property: value;}
+to {property: value;}
+}
+
+selector {
+animation-name: animation-name;
+animation-duration: 5s;
+}
+</pre>
+
+<h3>Example</h3>
+
+<p>The box below moves from left to right using CSS animation.</p>
+
+<div class="box"></div>
+
+<p>
+In this example:
+</p>
+
+<ul>
+<li><b>@keyframes</b> defines the animation.</li>
+<li><b>animation</b> property applies the animation to the element.</li>
+<li><b>5s</b> means the animation lasts for 5 seconds.</li>
+</ul>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

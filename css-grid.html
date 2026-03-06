@@ -1,0 +1,144 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Grid - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+/* Header */
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* Navigation Bar */
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+/* Content */
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+/* Grid Example */
+.grid-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap:10px;
+margin-top:20px;
+}
+
+.grid-item{
+background:#3498db;
+color:white;
+padding:20px;
+text-align:center;
+font-weight:bold;
+}
+
+/* Code box */
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+/* Footer */
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Grid</h2>
+
+<p>
+CSS Grid Layout is a powerful layout system used to create two-dimensional layouts
+for web pages. It allows developers to arrange elements into rows and columns easily.
+</p>
+
+<h3>Basic CSS Grid Syntax</h3>
+
+<pre>
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+</pre>
+
+<h3>Grid Example</h3>
+
+<div class="grid-container">
+<div class="grid-item">Item 1</div>
+<div class="grid-item">Item 2</div>
+<div class="grid-item">Item 3</div>
+<div class="grid-item">Item 4</div>
+<div class="grid-item">Item 5</div>
+<div class="grid-item">Item 6</div>
+</div>
+
+<p>
+In this example, the container is divided into three equal columns using the 
+<code>grid-template-columns</code> property.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

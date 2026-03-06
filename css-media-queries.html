@@ -1,0 +1,139 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Media Queries - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learn Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Media Queries</h2>
+
+<p>
+CSS Media Queries are used to make websites responsive.
+They allow the design to change depending on the screen size,
+device type, or screen resolution.
+</p>
+
+<h3>Why Media Queries are Important</h3>
+
+<ul>
+<li>They help websites adapt to mobile devices.</li>
+<li>They improve user experience on tablets and desktops.</li>
+<li>They are essential for responsive web design.</li>
+</ul>
+
+<h3>Basic Syntax</h3>
+
+<pre>
+@media (condition) {
+  CSS rules;
+}
+</pre>
+
+<h3>Example</h3>
+
+<pre>
+@media (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+</pre>
+
+<p>
+In this example, if the screen width is 600px or less,
+the background color of the webpage will change to light blue.
+</p>
+
+<h3>Common Breakpoints</h3>
+
+<ul>
+<li>Mobile Devices: max-width 600px</li>
+<li>Tablets: max-width 768px</li>
+<li>Laptops: max-width 1024px</li>
+<li>Desktops: above 1024px</li>
+</ul>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab | Website Development Project</p>
+</footer>
+
+</body>
+</html>
+```

@@ -1,0 +1,155 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Dropdown Menu - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+/* Dropdown Example */
+
+.dropdown{
+position:relative;
+display:inline-block;
+}
+
+.dropbtn{
+background:#4CAF50;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+}
+
+.dropdown-content{
+display:none;
+position:absolute;
+background:white;
+min-width:160px;
+box-shadow:0px 8px 16px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a{
+color:black;
+padding:10px;
+display:block;
+text-decoration:none;
+}
+
+.dropdown-content a:hover{
+background:#f1f1f1;
+}
+
+.dropdown:hover .dropdown-content{
+display:block;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Dropdown Menu</h2>
+
+<p>
+A dropdown menu is a list of options that appears when the user hovers or clicks on a button.
+CSS can be used to create dropdown menus without JavaScript.
+</p>
+
+<h3>Example of CSS Dropdown</h3>
+
+<div class="dropdown">
+<button class="dropbtn">Dropdown Menu</button>
+
+<div class="dropdown-content">
+<a href="#">HTML</a>
+<a href="#">CSS</a>
+<a href="#">JavaScript</a>
+</div>
+
+</div>
+
+<h3>CSS Code Used</h3>
+
+<pre>
+.dropdown:hover .dropdown-content{
+display:block;
+}
+</pre>
+
+<p>
+When the user moves the mouse over the dropdown button, the menu items appear.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+
+</html>
+```

@@ -1,0 +1,121 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Position - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Position</h2>
+
+<p>
+The CSS <b>position</b> property is used to specify how an element is positioned on a web page.
+It allows elements to be placed in different locations on the screen.
+</p>
+
+<h3>Types of CSS Position</h3>
+
+<ul>
+<li><b>Static</b> – Default positioning of elements.</li>
+<li><b>Relative</b> – Positioned relative to its normal position.</li>
+<li><b>Absolute</b> – Positioned relative to the nearest positioned ancestor.</li>
+<li><b>Fixed</b> – Positioned relative to the browser window.</li>
+<li><b>Sticky</b> – Toggles between relative and fixed positioning.</li>
+</ul>
+
+<h3>Example</h3>
+
+<pre>
+div {
+position: relative;
+left: 20px;
+top: 10px;
+}
+</pre>
+
+<p>
+In this example, the element moves 20 pixels from the left and 10 pixels from the top relative to its normal position.
+</p>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

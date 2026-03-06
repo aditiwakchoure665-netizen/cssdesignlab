@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Background</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+section{
+    max-width:100%;
+    margin:auto;
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1,h2{
+    color:#2c3e50;
+}
+
+pre{
+    background:#f8f8f8;
+    padding:10px;
+    border-left:4px solid #2c3e50;
+}
+
+code{
+    background:#eee;
+    padding:5px;
+    border-radius:4px;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#2c3e50;
+    color:white;
+    margin-top:20px;
+}
+</style>
+<style>
+
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+}
+
+.container{
+width:100%;
+margin:auto;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+@media screen and (max-width:768px){
+
+h1{
+font-size:24px;
+}
+
+nav a{
+display:block;
+margin:10px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>CSS Background</h1>
+<p>Learn how to style backgrounds using CSS</p>
+</header>
+
+<section>
+<h2>What is CSS Background?</h2>
+<p>
+CSS background properties are used to define the background effects
+for HTML elements. You can set background colors, images,
+positions, sizes, and more to improve the design of a webpage.
+</p>
+</section>
+
+<section>
+<h2>1. Background Color</h2>
+<p>The <code>background-color</code> property sets the background color of an element.</p>
+
+<pre>
+<code>
+body {
+    background-color: lightblue;
+}
+</code>
+</pre>
+</section>
+
+<section>
+<h2>2. Background Image</h2>
+<p>The <code>background-image</code> property sets an image as the background.</p>
+
+<pre>
+<code>
+body {
+    background-image: url("background.jpg");
+}
+</code>
+</pre>
+</section>
+
+<section>
+<h2>3. Background Repeat</h2>
+<p>The <code>background-repeat</code> property controls how the image repeats.</p>
+
+<pre>
+<code>
+body {
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+}
+</code>
+</pre>
+
+<p>Other values: repeat, repeat-x, repeat-y.</p>
+</section>
+
+<section>
+<h2>4. Background Position</h2>
+<p>The <code>background-position</code> property sets the starting position of the background image.</p>
+
+<pre>
+<code>
+body {
+    background-image: url("image.png");
+    background-position: center;
+}
+</code>
+</pre>
+</section>
+
+<section>
+<h2>5. Background Size</h2>
+<p>The <code>background-size</code> property defines the size of the background image.</p>
+
+<pre>
+<code>
+body {
+    background-image: url("image.jpg");
+    background-size: cover;
+}
+</code>
+</pre>
+</section>
+
+<section>
+<h2>Background Shorthand Property</h2>
+<p>You can combine multiple background properties in one line.</p>
+
+<pre>
+<code>
+body {
+    background: lightblue url("image.jpg") no-repeat center;
+}
+</code>
+</pre>
+</section>
+
+<section>
+<h2>Example</h2>
+
+<pre>
+<code>
+div {
+    background-color: #3498db;
+    background-image: url("pattern.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+</code>
+</pre>
+
+</section>
+
+<section>
+<h2>Summary</h2>
+<ul>
+<li>CSS backgrounds improve webpage design</li>
+<li>You can add colors or images as backgrounds</li>
+<li>Background properties control image position, size, and repetition</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 CSS Tutorial Website</p>
+</footer>
+
+</body>
+</html>

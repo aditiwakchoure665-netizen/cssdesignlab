@@ -1,0 +1,146 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Float - CSS Design Lab</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f4f4;
+}
+
+header{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+nav{
+background:#444;
+text-align:center;
+padding:10px;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:yellow;
+}
+
+.container{
+background:white;
+margin:30px;
+padding:30px;
+border-radius:5px;
+}
+
+.box{
+width:200px;
+height:120px;
+background:lightblue;
+float:left;
+margin-right:15px;
+padding:10px;
+}
+
+.clear{
+clear:both;
+}
+
+pre{
+background:#eee;
+padding:15px;
+border-radius:5px;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Design Lab</h1>
+<p>Learning Cascading Style Sheets</p>
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="tutorials.html">Tutorials</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+
+<h2>CSS Float</h2>
+
+<p>
+The CSS <b>float</b> property is used to position an element to the left or right
+of its container. Other content can flow around the floated element.
+</p>
+
+<h3>Example</h3>
+
+<div class="box">
+This box is floated to the left using CSS float.
+</div>
+
+<p>
+This paragraph flows around the floated element. Float is commonly used
+for creating layouts and positioning images with text.
+</p>
+
+<div class="clear"></div>
+
+<h3>CSS Code Example</h3>
+
+<pre>
+img {
+float: right;
+}
+
+div {
+float: left;
+}
+</pre>
+
+<p>
+Possible values for the float property include:
+</p>
+
+<ul>
+<li>left</li>
+<li>right</li>
+<li>none</li>
+<li>inherit</li>
+</ul>
+
+</div>
+
+<footer>
+<p>© 2026 CSS Design Lab</p>
+</footer>
+
+</body>
+</html>
+```

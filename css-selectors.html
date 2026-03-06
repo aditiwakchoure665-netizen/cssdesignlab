@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Selectors</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f4f6f9;
+    color:#333;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+section{
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    margin-top:20px;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1,h2{
+    color:#2c3e50;
+}
+
+code{
+    background:#eee;
+    padding:5px;
+    border-radius:4px;
+}
+
+pre{
+    background:#f8f8f8;
+    padding:10px;
+    border-left:4px solid #2c3e50;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    background:#2c3e50;
+    color:white;
+    margin-top:20px;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>CSS Selectors</h1>
+<p>Learn how to select HTML elements using CSS</p>
+</header>
+
+<section>
+<h2>What are CSS Selectors?</h2>
+<p>
+CSS selectors are used to select and style HTML elements. They define
+which HTML elements the CSS rules will apply to.
+</p>
+</section>
+
+<section>
+<h2>1. Element Selector</h2>
+<p>The element selector selects HTML elements by their name.</p>
+
+<pre>
+<code>
+p {
+    color: blue;
+}
+</code>
+</pre>
+
+<p>This will change the color of all paragraph elements.</p>
+</section>
+
+<section>
+<h2>2. ID Selector</h2>
+<p>The ID selector selects an element with a specific ID.</p>
+
+<pre>
+<code>
+#header {
+    background-color: black;
+    color: white;
+}
+</code>
+</pre>
+
+<p>It is used with the <code>#</code> symbol.</p>
+</section>
+
+<section>
+<h2>3. Class Selector</h2>
+<p>The class selector selects elements with a specific class.</p>
+
+<pre>
+<code>
+.box {
+    border: 2px solid gray;
+    padding: 10px;
+}
+</code>
+</pre>
+
+<p>It is used with the <code>.</code> symbol.</p>
+</section>
+
+<section>
+<h2>4. Group Selector</h2>
+<p>The group selector applies the same style to multiple elements.</p>
+
+<pre>
+<code>
+h1, h2, p {
+    font-family: Arial;
+}
+</code>
+</pre>
+
+<p>This will apply the same font style to all h1, h2, and paragraph elements.</p>
+</section>
+
+<section>
+<h2>5. Universal Selector</h2>
+<p>The universal selector selects all HTML elements.</p>
+
+<pre>
+<code>
+* {
+    margin: 0;
+    padding: 0;
+}
+</code>
+</pre>
+
+<p>This is commonly used for resetting default browser styles.</p>
+</section>
+
+<section>
+<h2>Summary</h2>
+<ul>
+<li>Selectors are used to target HTML elements</li>
+<li>They allow developers to apply styles efficiently</li>
+<li>Common selectors include element, id, class, group, and universal selectors</li>
+</ul>
+</section>
+
+<footer>
+<p>© 2026 CSS Tutorial Website</p>
+</footer>
+
+</body>
+</html>
